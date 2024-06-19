@@ -15,5 +15,5 @@
 
 ## Bonus Tip
 ### <li>Run <code>python manage.py createsuperuser</code> to create a super user
-### <li> navigate to <a href="http://localhost:8000/admmin/">Admin Dashboard</a>, login and access all the records.
+### <li> navigate to <a href="http://localhost:8000/admin/">Admin Dashboard</a>, login and access all the records.
 

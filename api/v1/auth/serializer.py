@@ -6,7 +6,8 @@ from rest_framework.authtoken.models import Token
 
 class LoginSerializer(serializers.Serializer):
 	username = serializers.CharField()
-	password = serializers.CharField()
+	password = serializers.CharField(help_text="If logging in for the first time; use 'Start12345' as password. "
+	                                           "You can later change your password")
 	user = None
 
 	def validate(self, attrs):

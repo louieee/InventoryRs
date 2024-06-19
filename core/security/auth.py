@@ -7,6 +7,7 @@ from rest_framework.authentication import (
 
 
 class CustomTokenAuthentication(TokenAuthentication):
+    """ Allows customization of token authentication"""
     keywords = ["token"]
 
     def authenticate(self, request):

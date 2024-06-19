@@ -1,7 +1,18 @@
-djangorestframework==3.15.2
 Django==5.0.6
+
+# for DRF
+djangorestframework==3.15.2
+
+# for swagger doc
 drf-yasg==1.21.7
+
+# for websocket
 channels==4.1.0
 channels-redis==4.2.0
 daphne==4.1.2
+
+# for CORS
 django-cors-headers==4.3.1
+
+# for environment variables
+python-decouple==3.8

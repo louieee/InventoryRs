@@ -32,6 +32,7 @@ class BaseModel(models.Model):
 		abstract = True
 
 	def delete(self, *args, **kwargs):
+		""" function to allow soft delete """
 		self.deleted_at = timezone.now()
 		self.save()
 

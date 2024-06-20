@@ -1,7 +1,7 @@
 from django.db import models
 
 from core.models import BaseModel
-from core.validaors import phone_number_validator
+from core.validators import phone_number_validator
 
 
 # Create your models here.
